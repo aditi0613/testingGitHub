@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testSuitee]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.extentereports.listener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Validating home page(failed)">
+    <classes>
+      <class name="TestCases.TestLoginPage">
+        <methods>
+          <include name="browsersetUp"/>
+          <include name="test_login_successful"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestCases.TestLoginPage -->
+    </classes>
+  </test> <!-- Validating home page(failed) -->
+</suite> <!-- Failed suite [testSuitee] -->
